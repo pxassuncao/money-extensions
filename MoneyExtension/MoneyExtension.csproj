@@ -1,9 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
 
+    <PackageId>MoneyExtensions2</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Marcos Carvalho</Authors>
+    <Company>OMJ Software</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Descriotion>Extension to covert decimal to integer</Descriotion>
+    <RepositoryUrl>https://github.com/pxassuncao/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/pxassuncao/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>baixados.jpg</PackageIcon>
+    <PackageTags>money;int;decima;converter</PackageTags>
+    <Title>MoneyExtensions2</Title>
+    <Sumary>Extension to convert decimal to integer</Sumary>
+  </PropertyGroup>
+<ItemGroup>
+  <None Include="..\Media\baixados.jpg" Pack="true" PackagePath="\"/>
+</ItemGroup>
 </Project>
